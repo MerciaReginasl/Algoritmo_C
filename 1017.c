@@ -1,12 +1,12 @@
-#include <stdio.h>
+t#include <stdio.h>
 #include <math.h>
 
 
 int main ()
 
 {
-    float velocidade; 
-    float tempo;
+    int velocidade; 
+    int tempo;
     double quant_litros;
 
     scanf("%f", &velocidade);
