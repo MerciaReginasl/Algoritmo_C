@@ -7,12 +7,12 @@ int main ()
 {
     float velocidade; 
     float tempo;
-    float quant_litros;
+    double quant_litros;
 
     scanf("%f", &velocidade);
     scanf("%f", &tempo);
 
-    quant_litros = (velocidade * tempo) / 12;
+    quant_litros = double(velocidade * tempo) / 12;
 
     printf("%.3f\n", quant_litros);
 
