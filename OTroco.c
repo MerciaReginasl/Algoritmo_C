@@ -1,3 +1,4 @@
+//Por: https://github.com/Judenilson
 #include  <stdio.h>
 #include<math.h>
 int main ()
